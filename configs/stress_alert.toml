@@ -1,0 +1,42 @@
+[event]
+horizon_months = 6
+training_quantile = 0.80
+comparison = "strictly_greater"
+
+[selection]
+metric = "average_precision"
+threshold_metric = "f1"
+retune_frequency = "outer_fold"
+inner_validation_origins = 24
+minimum_inner_training_rows = 24
+decision_thresholds = [0.20, 0.30, 0.40, 0.50, 0.60, 0.70, 0.80]
+random_seed = 20260817
+
+[models]
+names = ["logistic_regression", "random_forest", "xgboost"]
+
+[logistic_regression]
+c_values = [0.1, 1.0, 10.0]
+max_iter = 5000
+
+[random_forest]
+n_estimators = 200
+max_depths = [2, 4]
+min_samples_leaf = [2, 5]
+max_features = [0.5, 1.0]
+
+[xgboost]
+n_estimators = 150
+max_depths = [2, 3]
+learning_rates = [0.03, 0.10]
+min_child_weights = [2.0, 5.0]
+subsample = 0.8
+colsample_bytree = 0.8
+reg_lambda = 1.0
+
+[evaluation]
+calibration_bins = 5
+bootstrap_block_length_months = 6
+bootstrap_replications = 10000
+bootstrap_random_seed = 20260817
+

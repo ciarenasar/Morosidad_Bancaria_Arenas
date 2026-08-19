@@ -1,0 +1,57 @@
+{
+  "compared_at_utc": "2026-08-19T02:33:12.545999+00:00",
+  "conclusions_changed": false,
+  "conclusion_changes": {},
+  "key_files_before": 46,
+  "key_files_after": 46,
+  "key_files_changed": 0,
+  "changed_files": [],
+  "before": {
+    "regression_champion": "zero_change",
+    "regression_champion_mae_pp": 0.433692691686,
+    "zero_change_mae_pp": 0.433692691686,
+    "learned_challenger": "elastic_net",
+    "learned_challenger_mae_pp": 0.506537205838,
+    "learned_improvement_vs_zero_pct": -16.796343481992,
+    "challenger_bootstrap_probability_better_than_zero": 0.0662,
+    "stress_ranking_challenger": "logistic_regression",
+    "stress_average_precision": 0.771382279514,
+    "stress_brier": 0.276900339752,
+    "prevalence_brier": 0.248204166316,
+    "stress_probability_calibrated_vs_prevalence": false,
+    "stress_alert_operationally_approved": false,
+    "elastic_net_improvement_by_horizon_pct": {
+      "3": -16.661750985807,
+      "6": -16.796343481992,
+      "12": 2.516697475765
+    },
+    "top_elastic_net_driver": "imacec_yoy_pct",
+    "technical_status": "passed",
+    "technical_checks": "11/11",
+    "holdout_rows_evaluated": 0
+  },
+  "after": {
+    "regression_champion": "zero_change",
+    "regression_champion_mae_pp": 0.433692691686,
+    "zero_change_mae_pp": 0.433692691686,
+    "learned_challenger": "elastic_net",
+    "learned_challenger_mae_pp": 0.506537205838,
+    "learned_improvement_vs_zero_pct": -16.796343481992,
+    "challenger_bootstrap_probability_better_than_zero": 0.0662,
+    "stress_ranking_challenger": "logistic_regression",
+    "stress_average_precision": 0.771382279514,
+    "stress_brier": 0.276900339752,
+    "prevalence_brier": 0.248204166316,
+    "stress_probability_calibrated_vs_prevalence": false,
+    "stress_alert_operationally_approved": false,
+    "elastic_net_improvement_by_horizon_pct": {
+      "3": -16.661750985807,
+      "6": -16.796343481992,
+      "12": 2.516697475765
+    },
+    "top_elastic_net_driver": "imacec_yoy_pct",
+    "technical_status": "passed",
+    "technical_checks": "11/11",
+    "holdout_rows_evaluated": 0
+  }
+}

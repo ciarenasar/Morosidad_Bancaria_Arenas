@@ -1,0 +1,19 @@
+{
+  "availability_violations": 0,
+  "development_rows": 118,
+  "feature_count": 8,
+  "forecast_rows": 6,
+  "holdout_rows": 24,
+  "labeled_rows": 142,
+  "missing_feature_values": {
+    "consumer_lending_rate": 0,
+    "imacec_sa": 0,
+    "ipc_yoy": 0,
+    "real_consumer_loans": 0,
+    "real_m1_average": 0,
+    "tpm_monthly_average": 0,
+    "unemployment_rate": 0,
+    "usdclp_monthly_average": 0
+  },
+  "rows": 148
+}

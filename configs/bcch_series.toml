@@ -1,0 +1,71 @@
+[[series]]
+name = "imacec_sa"
+series_id = "F032.IMC.IND.Z.Z.EP18.Z.Z.1.M"
+role = "economic_activity"
+transformation = "level_and_annual_change"
+availability_month_offset = 2
+availability_day = 5
+availability_quality = "conservative_proxy"
+
+[[series]]
+name = "ipc_yoy"
+series_id = "G073.IPC.V12.2023.M"
+role = "inflation"
+transformation = "level"
+availability_month_offset = 1
+availability_day = 15
+availability_quality = "conservative_proxy"
+
+[[series]]
+name = "unemployment_rate"
+series_id = "F049.DES.TAS.HIST.10.M"
+role = "labor_market"
+transformation = "level_and_change"
+availability_month_offset = 2
+availability_day = 5
+availability_quality = "conservative_proxy"
+
+[[series]]
+name = "tpm_monthly_average"
+series_id = "F022.TPM.TIN.D001.NO.Z.M"
+role = "monetary_policy"
+transformation = "level_and_change"
+availability_month_offset = 1
+availability_day = 15
+availability_quality = "conservative_proxy"
+
+[[series]]
+name = "usdclp_monthly_average"
+series_id = "F073.TCO.PRE.HIST.M"
+role = "financial_conditions"
+transformation = "annual_change"
+availability_month_offset = 1
+availability_day = 15
+availability_quality = "conservative_proxy"
+
+[[series]]
+name = "consumer_lending_rate"
+series_id = "F022.CON.TIP.Z.NO.Z.M"
+role = "credit_price"
+transformation = "level_and_change"
+availability_month_offset = 1
+availability_day = 15
+availability_quality = "conservative_proxy"
+
+[[series]]
+name = "real_consumer_loans"
+series_id = "F022.CON.STO.TP.Z.P96R23.M"
+role = "credit_quantity"
+transformation = "annual_change"
+availability_month_offset = 1
+availability_day = 15
+availability_quality = "conservative_proxy"
+
+[[series]]
+name = "real_m1_average"
+series_id = "F021.M1.PRO.R.P96R23.5.M"
+role = "liquidity"
+transformation = "annual_change"
+availability_month_offset = 1
+availability_day = 15
+availability_quality = "conservative_proxy"

@@ -1,0 +1,7 @@
+episode_id,model,episode_start_origin,episode_end_origin,event_origins,detected,first_true_alert_origin,detection_delay_months,true_alerts_in_episode,episode_recall,forecast_horizon_months
+1,logistic_regression,2021-09-01,2022-11-01,15,1,2022-03-01,6,9,0.6,6
+1,random_forest,2021-09-01,2022-11-01,15,1,2021-09-01,0,15,1.0,6
+1,xgboost,2021-09-01,2022-11-01,15,1,2022-01-01,4,11,0.7333333333333333,6
+2,logistic_regression,2023-08-01,2023-08-01,1,0,,,0,0.0,6
+2,random_forest,2023-08-01,2023-08-01,1,1,2023-08-01,0,1,1.0,6
+2,xgboost,2023-08-01,2023-08-01,1,1,2023-08-01,0,1,1.0,6

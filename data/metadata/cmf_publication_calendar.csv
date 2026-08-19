@@ -1,0 +1,149 @@
+observation_date,forecast_issue_date,source_agency,source_url,source_title
+2014-03-01,2014-05-01,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10472,Resumen del Desempeño del Sistema Bancario a Marzo de 2014
+2014-04-01,2014-06-05,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10499,Resumen del Desempeño del Sistema Bancario a Abril de 2014
+2014-05-01,2014-07-03,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10515,Resumen del Desempeño del Sistema Bancario a Mayo de 2014
+2014-06-01,2014-08-07,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10529,Resumen del Desempeño del Sistema Bancario a Junio de 2014
+2014-07-01,2014-09-04,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10553,Resumen del Desempeño del Sistema Bancario a Julio de 2014
+2014-08-01,2014-10-02,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10572,Resumen del Desempeño del Sistema Bancario a Agosto de 2014
+2014-09-01,2014-11-06,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10595,Resumen del Desempeño del Sistema Bancario a Septiembre de 2014
+2014-10-01,2014-12-04,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10609,Resumen del desempeño del sistema bancario a octubre de 2014
+2014-11-01,2015-01-01,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10639,Resumen del Desempeño del Sistema Bancario a Noviembre de 2014
+2014-12-01,2015-02-05,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10672,Resumen del Desempeño del Sistema Bancario a Diciembre de 2014
+2015-01-01,2015-03-05,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10681,Resumen del Desempeño del Sistema Bancario a enero de 2015
+2015-02-01,2015-03-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10706,Resumen del Desempeño del Sistema Bancario a Febrero de 2015
+2015-03-01,2015-04-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10736,Resumen del Desempeño del Sistema Bancario a Marzo de 2015
+2015-04-01,2015-05-29,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10782,Resumen del Desempeño del Sistema Bancario a Abril de 2015
+2015-05-01,2015-06-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10826,Resumen del Desempeño del Sistema Bancario a mayo de 2015
+2015-06-01,2015-07-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10848,Resumen del Desempeño del Sistema Bancario a junio de 2015
+2015-07-01,2015-08-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10878,Resumen del Desempeño del Sistema Bancario a julio de 2015
+2015-08-01,2015-09-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10922,Resumen del Desempeño del Sistema Bancario a agosto de 2015
+2015-09-01,2015-10-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10948,Resumen del Desempeño del Sistema Bancario a septiembre de 2015
+2015-10-01,2015-11-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=10965,Resumen del Desempeño del Sistema Bancario a octubre de 2015
+2015-11-01,2015-12-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11013,Resumen del Desempeño del Sistema Bancario a noviembre de 2015
+2015-12-01,2016-01-29,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11045,Resumen del Desempeño del Sistema Bancario a diciembre de 2015 (*)
+2016-01-01,2016-02-29,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11073,Resumen del Desempeño del Sistema Bancario a enero de 2016
+2016-02-01,2016-03-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11106,Resumen del Desempeño del Sistema Bancario a febrero de 2016
+2016-03-01,2016-04-29,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11127,Resumen del Desempeño del Sistema Bancario a marzo de 2016
+2016-04-01,2016-05-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11155,Resumen del Desempeño del Sistema Bancario a abril de 2016
+2016-05-01,2016-06-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11185,Resumen del Desempeño del Sistema Bancario a mayo de 2016
+2016-06-01,2016-07-29,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11220,Resumen del Desempeño del Sistema Bancario a junio de 2016
+2016-07-01,2016-08-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11255,Resumen del Desempeño del Sistema Bancario a julio de 2016
+2016-08-01,2016-09-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11297,Resumen del Desempeño del Sistema Bancario a agosto de 2016
+2016-09-01,2016-10-28,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11357,Resumen del Desempeño del Sistema Bancario a septiembre de 2016
+2016-10-01,2016-11-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11401,Resumen del desempeño del Sistema Bancario a octubre de 2016
+2016-11-01,2016-12-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11445,Resumen del Desempeño del Sistema Bancario a noviembre 2016
+2016-12-01,2017-01-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11500,Resumen del Desempeño del Sistema Bancario a diciembre 2016
+2017-01-01,2017-02-28,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11480,Resumen del Desempeño de Bancos y Cooperativas a enero de 2017
+2017-02-01,2017-03-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11535,Resumen del Desempeño de Bancos y Cooperativas a febrero de 2017
+2017-03-01,2017-04-28,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11617,Resumen del Desempeño de Bancos y Cooperativas a marzo de 2017
+2017-04-01,2017-05-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11661,Resumen del Desempeño de Bancos y Cooperativas a abril de 2017
+2017-05-01,2017-06-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11695,Resumen del Desempeño de Bancos y Cooperativas a mayo de 2017
+2017-06-01,2017-07-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11718,Resumen del Desempeño de Bancos y Cooperativas a junio de 2017
+2017-07-01,2017-08-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11745,Resumen del Desempeño de Bancos y Cooperativas a julio de 2017
+2017-08-01,2017-09-29,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11773,Resumen del Desempeño de Bancos y Cooperativas a agosto de 2017
+2017-09-01,2017-10-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11806,Resumen del Desempeño de Bancos y Cooperativas a septiembre de 2017
+2017-10-01,2017-11-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11876,Resumen del Desempeño de Bancos y Cooperativas a octubre de 2017
+2017-11-01,2017-12-29,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11915,Resumen del Desempeño de Bancos y Cooperativas a noviembre de 2017
+2017-12-01,2018-01-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=11977,Resumen del Desempeño de Bancos y Cooperativas a diciembre de 2017
+2018-01-01,2018-02-28,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12005,Resumen del Desempeño de Bancos y Cooperativas a enero de 2018
+2018-02-01,2018-03-29,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12042,Resumen del Desempeño de Bancos y Cooperativas a febrero de 2018
+2018-03-01,2018-04-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12071,Resumen del Desempeño de Bancos y Cooperativas a marzo de 2018
+2018-04-01,2018-05-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12110,Resumen del Desempeño de Bancos y Cooperativas a abril de 2018
+2018-05-01,2018-06-29,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12139,Resumen del Desempeño de Bancos y Cooperativas a mayo de 2018
+2018-06-01,2018-07-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12170,Resumen del Desempeño de Bancos y Cooperativas a junio de 2018
+2018-07-01,2018-08-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12206,Resumen del Desempeño de Bancos y Cooperativas a julio de 2018
+2018-08-01,2018-09-28,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12239,Resumen del Desempeño de Bancos y Cooperativas a agosto de 2018
+2018-09-01,2018-10-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12277,Resumen del Desempeño de Bancos y Cooperativas a septiembre de 2018
+2018-10-01,2018-11-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12338,Resumen del Desempeño de Bancos y Cooperativas a octubre de 2018
+2018-11-01,2018-12-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12379,Resumen del Desempeño de Bancos y Cooperativas a noviembre de 2018
+2018-12-01,2019-01-31,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12420,Resumen del Desempeño de Bancos y Cooperativas a diciembre de 2018
+2019-01-01,2019-02-27,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12436,Resumen del Desempeño de Bancos y Cooperativas a enero de 2019
+2019-02-01,2019-03-28,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12461,Resumen del Desempeño de Bancos y Cooperativas a febrero de 2019
+2019-03-01,2019-04-29,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12490,Resumen del Desempeño de Bancos y Cooperativas a marzo de 2019
+2019-04-01,2019-05-30,SBIF,https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.1&idContenido=12526,Resumen del Desempeño de Bancos y Cooperativas a abril de 2019
+2019-05-01,2019-06-27,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-27008.html,Resumen del Desempeño de Bancos y Cooperativas a mayo de 2019
+2019-06-01,2019-07-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-27173.html,CMF informa el desempeño de Bancos y Cooperativas al primer semestre de 2019
+2019-07-01,2019-08-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-27336.html,CMF informa el Desempeño de Bancos y Cooperativas a julio 2019
+2019-08-01,2019-09-27,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-27576.html,CMF informa el Desempeño de Bancos y Cooperativas a agosto de 2019
+2019-09-01,2019-10-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-27759.html,CMF informa el desempeño de Bancos y Cooperativas a septiembre de 2019
+2019-10-01,2019-11-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-27936.html,CMF informa el desempeño de Bancos y Cooperativas a octubre de 2019
+2019-11-01,2019-12-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-28073.html,CMF informa el desempeño de Bancos y Cooperativas a noviembre de 2019
+2019-12-01,2020-01-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-28201.html,CMF informa el desempeño de Bancos y Cooperativas a diciembre de 2019
+2020-01-01,2020-02-27,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-28329.html,CMF informa el desempeño de bancos y cooperativas de enero 2020
+2020-02-01,2020-03-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-28501.html,La Comisión informa sobre el desempeño de bancos y cooperativas a febrero de 2020
+2020-03-01,2020-04-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-28708.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a marzo de 2020
+2020-04-01,2020-05-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-29017.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a abril de 2020
+2020-05-01,2020-06-26,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-29247.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a mayo de 2020
+2020-06-01,2020-07-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-29452.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a junio de 2020
+2020-07-01,2020-08-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-29667.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a julio de 2020
+2020-08-01,2020-09-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-29897.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a agosto de 2020
+2020-09-01,2020-10-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-30210.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a septiembre de 2020
+2020-10-01,2020-11-27,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-38772.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a octubre de 2020
+2020-11-01,2020-12-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-46737.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a noviembre de 2020
+2020-12-01,2021-01-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-46901.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a diciembre de 2020
+2021-01-01,2021-02-25,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-47128.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a enero de 2021
+2021-02-01,2021-03-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-47323.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a febrero de 2021
+2021-03-01,2021-04-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-47544.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a marzo de 2021
+2021-04-01,2021-05-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-47694.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a abril de 2021
+2021-05-01,2021-06-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-47864.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a mayo de 2021
+2021-06-01,2021-07-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-49118.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a junio de 2021
+2021-07-01,2021-08-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-49300.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a julio de 2021
+2021-08-01,2021-09-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-49553.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a agosto de 2021
+2021-09-01,2021-10-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-49685.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a septiembre de 2021
+2021-10-01,2021-11-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-49868.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a octubre de 2021
+2021-11-01,2021-12-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-50000.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a noviembre de 2021
+2021-12-01,2022-01-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-50168.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a diciembre de 2021
+2022-01-01,2022-02-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-50296.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a enero de 2022
+2022-02-01,2022-03-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-50481.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a febrero de 2022
+2022-03-01,2022-04-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-50906.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a marzo de 2022
+2022-04-01,2022-05-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-51115.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a abril de 2022
+2022-05-01,2022-06-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-51390.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a mayo de 2022
+2022-06-01,2022-07-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-51918.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a junio de 2022
+2022-07-01,2022-08-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-52726.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a julio de 2022
+2022-08-01,2022-09-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-53584.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a agosto de 2022
+2022-09-01,2022-10-27,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-54318.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a septiembre de 2022
+2022-10-01,2022-11-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-55453.html,CMF informa el desempeño de bancos y cooperativas supervisadas a octubre de 2022
+2022-11-01,2022-12-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-59719.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a noviembre de 2022
+2022-12-01,2023-01-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-60724.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a diciembre de 2022
+2023-01-01,2023-02-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-63046.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a enero de 2023
+2023-02-01,2023-03-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-68424.html,Comisión informa el desempeño de bancos y cooperativas supervisadas a febrero de 2023
+2023-03-01,2023-04-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-69353.html,CMF informa el desempeño de bancos y cooperativas supervisadas a marzo de 2023
+2023-04-01,2023-05-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-70220.html,CMF informa el desempeño de bancos y cooperativas supervisadas a abril de 2023
+2023-05-01,2023-06-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-71107.html,CMF informa el desempeño de bancos y cooperativas supervisadas a mayo de 2023
+2023-06-01,2023-07-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-71957.html,CMF informa el desempeño de bancos y cooperativas supervisadas a junio de 2023
+2023-07-01,2023-08-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-72975.html,CMF informa el desempeño de bancos y cooperativas supervisadas a julio de 2023
+2023-08-01,2023-09-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-73745.html,CMF informa el desempeño de bancos y cooperativas supervisadas a agosto de 2023
+2023-09-01,2023-10-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-74747.html,CMF informa el desempeño de bancos y cooperativas supervisadas a septiembre de 2023
+2023-10-01,2023-11-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-75823.html,CMF informa el desempeño de bancos y cooperativas supervisadas a octubre de 2023
+2023-11-01,2023-12-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-76642.html,CMF informa el desempeño de bancos y cooperativas supervisadas a noviembre de 2023
+2023-12-01,2024-01-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-77777.html,CMF informa el desempeño de bancos y cooperativas supervisadas a diciembre de 2023
+2024-01-01,2024-02-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-78662.html,CMF informa el desempeño de bancos y cooperativas supervisadas a enero de 2024
+2024-02-01,2024-03-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-79823.html,CMF informa el desempeño de bancos y cooperativas supervisadas a febrero de 2024
+2024-03-01,2024-04-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-80914.html,CMF informa el desempeño de bancos y cooperativas supervisadas a marzo de 2024
+2024-04-01,2024-05-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-81757.html,CMF informa el desempeño de bancos y cooperativas supervisadas a abril de 2024
+2024-05-01,2024-06-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-82612.html,CMF informa el desempeño de bancos y cooperativas supervisadas a mayo de 2024
+2024-06-01,2024-07-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-83618.html,CMF informa el desempeño de bancos y cooperativas supervisadas a junio de 2024
+2024-07-01,2024-08-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-84565.html,CMF informa el desempeño de bancos y cooperativas supervisadas a julio de 2024
+2024-08-01,2024-09-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-85615.html,CMF informa el desempeño de bancos y cooperativas supervisadas a agosto de 2024
+2024-09-01,2024-10-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-86593.html,CMF informa el desempeño de bancos y cooperativas supervisadas a septiembre de 2024
+2024-10-01,2024-11-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-87995.html,CMF informa el desempeño de bancos y cooperativas supervisadas a octubre de 2024
+2024-11-01,2024-12-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-89050.html,CMF informa el desempeño de bancos y cooperativas supervisadas a noviembre de 2024
+2024-12-01,2025-01-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-90168.html,CMF informa el desempeño de bancos y cooperativas supervisadas a diciembre de 2024
+2025-01-01,2025-02-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-91535.html,CMF informa el desempeño de bancos y cooperativas supervisadas a enero de 2025
+2025-02-01,2025-03-31,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-92635.html,CMF informa el desempeño de bancos y cooperativas supervisadas a febrero de 2025
+2025-03-01,2025-04-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-93980.html,CMF informa el desempeño de bancos y cooperativas supervisadas a marzo de 2025
+2025-04-01,2025-05-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-94844.html,CMF informa el desempeño de bancos y cooperativas supervisadas a abril de 2025
+2025-05-01,2025-06-27,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-96051.html,CMF informa el desempeño de bancos y cooperativas supervisadas a mayo de 2025
+2025-06-01,2025-07-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-97048.html,CMF informa el desempeño de bancos y cooperativas supervisadas a junio de 2025
+2025-07-01,2025-08-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-98085.html,CMF informa el desempeño de bancos y cooperativas supervisadas a julio de 2025
+2025-08-01,2025-09-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-99010.html,CMF informa el desempeño de bancos y cooperativas supervisadas a agosto de 2025
+2025-09-01,2025-10-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-100142.html,CMF informa el desempeño de bancos y cooperativas supervisadas a septiembre de 2025
+2025-10-01,2025-11-27,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-101090.html,CMF informa el desempeño de bancos y cooperativas supervisadas a octubre de 2025
+2025-11-01,2025-12-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-102365.html,CMF informa el desempeño de bancos y cooperativas supervisadas a noviembre de 2025
+2025-12-01,2026-01-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-103160.html,CMF informa el desempeño de bancos y cooperativas supervisadas a diciembre de 2025
+2026-01-01,2026-02-26,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-103961.html,CMF informa el desempeño de bancos y cooperativas supervisadas a enero de 2026
+2026-02-01,2026-03-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-109078.html,CMF informa el desempeño de bancos y cooperativas supervisadas a febrero de 2026
+2026-03-01,2026-04-29,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-110125.html,CMF informa el desempeño de bancos y cooperativas supervisadas a marzo de 2026
+2026-04-01,2026-05-28,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-110763.html,CMF informa el desempeño de bancos y cooperativas supervisadas a abril de 2026
+2026-05-01,2026-06-26,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-111429.html,CMF informa el desempeño de bancos y cooperativas supervisadas a mayo de 2026
+2026-06-01,2026-07-30,CMF,https://www.cmfchile.cl/portal/prensa/615/w4-article-112224.html,CMF informa el desempeño de bancos y cooperativas supervisadas a junio de 2026

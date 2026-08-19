@@ -1,0 +1,101 @@
+{
+  "autoregressive_features": [
+    "npl90_level_t",
+    "npl90_lag_1m",
+    "npl90_lag_3m",
+    "npl90_lag_6m",
+    "npl90_lag_12m",
+    "npl90_change_1m_pp",
+    "npl90_change_3m_pp",
+    "npl90_change_12m_pp"
+  ],
+  "feature_columns": [
+    "npl90_level_t",
+    "npl90_lag_1m",
+    "npl90_lag_3m",
+    "npl90_lag_6m",
+    "npl90_lag_12m",
+    "npl90_change_1m_pp",
+    "npl90_change_3m_pp",
+    "npl90_change_12m_pp",
+    "npl90_rolling_mean_3m",
+    "npl90_rolling_mean_6m",
+    "npl90_rolling_mean_12m",
+    "imacec_yoy_pct",
+    "ipc_yoy",
+    "unemployment_rate",
+    "tpm_monthly_average",
+    "tpm_change_3m_pp",
+    "usdclp_yoy_pct",
+    "consumer_lending_rate",
+    "consumer_lending_rate_change_3m_pp",
+    "real_consumer_loans_yoy_pct",
+    "real_m1_yoy_pct",
+    "month_sin",
+    "month_cos"
+  ],
+  "feature_set": "consumption_h6_v001",
+  "macro_features": [
+    {
+      "name": "imacec_yoy_pct",
+      "operation": "pct_change",
+      "periods": 12,
+      "source": "imacec_sa"
+    },
+    {
+      "name": "ipc_yoy",
+      "operation": "level",
+      "periods": 0,
+      "source": "ipc_yoy"
+    },
+    {
+      "name": "unemployment_rate",
+      "operation": "level",
+      "periods": 0,
+      "source": "unemployment_rate"
+    },
+    {
+      "name": "tpm_monthly_average",
+      "operation": "level",
+      "periods": 0,
+      "source": "tpm_monthly_average"
+    },
+    {
+      "name": "tpm_change_3m_pp",
+      "operation": "difference",
+      "periods": 3,
+      "source": "tpm_monthly_average"
+    },
+    {
+      "name": "usdclp_yoy_pct",
+      "operation": "pct_change",
+      "periods": 12,
+      "source": "usdclp_monthly_average"
+    },
+    {
+      "name": "consumer_lending_rate",
+      "operation": "level",
+      "periods": 0,
+      "source": "consumer_lending_rate"
+    },
+    {
+      "name": "consumer_lending_rate_change_3m_pp",
+      "operation": "difference",
+      "periods": 3,
+      "source": "consumer_lending_rate"
+    },
+    {
+      "name": "real_consumer_loans_yoy_pct",
+      "operation": "pct_change",
+      "periods": 12,
+      "source": "real_consumer_loans"
+    },
+    {
+      "name": "real_m1_yoy_pct",
+      "operation": "pct_change",
+      "periods": 12,
+      "source": "real_m1_average"
+    }
+  ],
+  "point_in_time_rule": "Cada transformación macro termina en el observation_date seleccionado por available_date en modeling_base.csv."
+}

@@ -1,0 +1,8 @@
+[horizon_robustness]
+horizons_months = [3, 6, 12]
+training_schemes = ["expanding", "rolling"]
+rolling_training_months = 60
+bootstrap_replications = 10000
+bootstrap_random_seed = 20260818
+challenger_model = "elastic_net"
+

@@ -1,0 +1,9 @@
+feature_name,series_id,role,first_observation,last_observation,observations,valid_observations,target_period_observations,missing_target_months,availability_quality
+imacec_sa,F032.IMC.IND.Z.Z.EP18.Z.Z.1.M,economic_activity,2012-01-01,2026-06-01,174,174,148,0,conservative_proxy
+ipc_yoy,G073.IPC.V12.2023.M,inflation,2012-01-01,2026-07-01,175,175,148,0,conservative_proxy
+unemployment_rate,F049.DES.TAS.HIST.10.M,labor_market,2012-01-01,2026-06-01,174,174,148,0,conservative_proxy
+tpm_monthly_average,F022.TPM.TIN.D001.NO.Z.M,monetary_policy,2012-01-01,2026-07-01,175,175,148,0,conservative_proxy
+usdclp_monthly_average,F073.TCO.PRE.HIST.M,financial_conditions,2012-01-01,2026-07-01,175,175,148,0,conservative_proxy
+consumer_lending_rate,F022.CON.TIP.Z.NO.Z.M,credit_price,2012-01-01,2026-07-01,175,175,148,0,conservative_proxy
+real_consumer_loans,F022.CON.STO.TP.Z.P96R23.M,credit_quantity,2012-01-01,2026-07-01,175,175,148,0,conservative_proxy
+real_m1_average,F021.M1.PRO.R.P96R23.5.M,liquidity,2012-01-01,2026-07-01,175,175,148,0,conservative_proxy

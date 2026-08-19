@@ -1,0 +1,938 @@
+{
+  "algorithm": "sha256",
+  "environment": {
+    "packages": {
+      "matplotlib": "3.10.0",
+      "numpy": "2.3.5",
+      "pandas": "2.3.3",
+      "scikit-learn": "1.8.0",
+      "xgboost": "3.2.0"
+    },
+    "platform": "Windows-10-10.0.19045-SP0",
+    "python": "3.12.13"
+  },
+  "excluded_names": [
+    ".env",
+    "reproduction_manifest_v001.json"
+  ],
+  "file_count": 181,
+  "files": [
+    {
+      "bytes": 200,
+      "path": ".env.example",
+      "sha256": "83e0d3f32cc658cd2eb027975aeb5e55afe04d77eaf694a8e5911f7894991a6b"
+    },
+    {
+      "bytes": 742,
+      "path": ".gitignore",
+      "sha256": "f6acaf37edb9ae3ba6a37ad1ff024609406497c380caddedeb82b1a449678ed9"
+    },
+    {
+      "bytes": 890,
+      "path": "configs/base.toml",
+      "sha256": "9e73a0b28508a0bb7a48af08eb99c8cb98a363e6c83244a1aa157b2fbd12f793"
+    },
+    {
+      "bytes": 1838,
+      "path": "configs/bcch_series.toml",
+      "sha256": "3fd6fab6abb1b619028ae9de780320fec230afca154b835b28422db38dedfa95"
+    },
+    {
+      "bytes": 445,
+      "path": "configs/explainability.toml",
+      "sha256": "b2dd55dc59c456a866d5d514fd75ff282d8f57273de72a02070fbe62def1b447"
+    },
+    {
+      "bytes": 1491,
+      "path": "configs/features.toml",
+      "sha256": "c78fa9f4f6a429df113d89da01552640b71dffdd38dda90faae3f8687672246a"
+    },
+    {
+      "bytes": 221,
+      "path": "configs/horizon_robustness.toml",
+      "sha256": "65d7cd97818d46d1009bad332a3a796fc836ba3410b45f2235a0f802d0eed448"
+    },
+    {
+      "bytes": 319,
+      "path": "configs/modeling.toml",
+      "sha256": "232945e8c9d371baa1060cac9d27ec91bec48c8e96d5c747bb2dae1993cd9919"
+    },
+    {
+      "bytes": 507,
+      "path": "configs/models.toml",
+      "sha256": "0c5436bfc77ee21dafbb0cd3f7cb1193e4c78c669df8298a6b2f58d95a66d5d7"
+    },
+    {
+      "bytes": 1337,
+      "path": "configs/robustness.toml",
+      "sha256": "9eea8fa75d1ee0bd609aac6eae730ae436e9c0b59459b27f00b821b5e2bffb1e"
+    },
+    {
+      "bytes": 879,
+      "path": "configs/stress_alert.toml",
+      "sha256": "91b89c36bd6bedaa52e2ed8a88a48ceb5ac4adbf6a0d687b1dbb00614d8e06be"
+    },
+    {
+      "bytes": 670,
+      "path": "configs/technical_closure.toml",
+      "sha256": "3face506f5e9ce775f84695abf64f51d4b002ce1274ea23cde865303e60a53ab"
+    },
+    {
+      "bytes": 1,
+      "path": "data/external/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 1,
+      "path": "data/interim/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 138040,
+      "path": "data/interim/bcch_monthly.csv",
+      "sha256": "b7d400f8829300b07f1be351b972a35260e5fa7a4db99d490ff0d56e9efc8499"
+    },
+    {
+      "bytes": 16021,
+      "path": "data/interim/cmf_npl90_consumption.csv",
+      "sha256": "1c060bab1687fed40c21e4456cff8d7ba37ae4e1438858360c899a26e7e1fccf"
+    },
+    {
+      "bytes": 2222,
+      "path": "data/metadata/backtest_folds_v001.json",
+      "sha256": "bbb43d980364b2a6c57818711f74242947ff616306d37ff42fc8808065d8e078"
+    },
+    {
+      "bytes": 1060,
+      "path": "data/metadata/bcch_coverage.csv",
+      "sha256": "2e3b37079a76d9267999b54a38d1454554c467e61220d25361aff6dc9e5df490"
+    },
+    {
+      "bytes": 1028,
+      "path": "data/metadata/cmf_calendar_coverage.json",
+      "sha256": "20011ba743205cdd685899b512318af4e85dc01615e03f8a0c1b3f6f4d50ee62"
+    },
+    {
+      "bytes": 26363,
+      "path": "data/metadata/cmf_publication_calendar.csv",
+      "sha256": "f9397ed0c8ec7673e966f7080ad3dcd1f8eb6bcd03abf1c8c835358bb9a349d9"
+    },
+    {
+      "bytes": 380,
+      "path": "data/metadata/cmf_target_coverage.json",
+      "sha256": "b65b31ff02d753d91213b9f3e5acc852e9f8566b0407821732cdd4639e71c28d"
+    },
+    {
+      "bytes": 11194,
+      "path": "data/metadata/download_manifest.jsonl",
+      "sha256": "040281863c764151c0f142c7865dfe9e903cf1f880768cd28739c892869d4294"
+    },
+    {
+      "bytes": 828,
+      "path": "data/metadata/explainability_v001.json",
+      "sha256": "ef5f2c067fd27db1eb767fd5844e4255ea6b9ec6bb72338bb889e61abcd0ab59"
+    },
+    {
+      "bytes": 912,
+      "path": "data/metadata/feature_coverage.json",
+      "sha256": "e0761211b87d8f4d0c1368d459e9ecc247190199789ec4eeade79ddac7d1313c"
+    },
+    {
+      "bytes": 2486,
+      "path": "data/metadata/feature_set_v001.json",
+      "sha256": "ac640fa297b380fc08a8af6b61a61bd354bc3cfc20d89a9cb4b7738c867c8dba"
+    },
+    {
+      "bytes": 11620,
+      "path": "data/metadata/horizon_robustness_v001.json",
+      "sha256": "3272dd6addcf1952e3581d35621ff71b343e9a971e6448faa3d80009e43df4e6"
+    },
+    {
+      "bytes": 3043,
+      "path": "data/metadata/ml_backtest_v001.json",
+      "sha256": "cba05394a87a5e79b4fbc76511c6275240d4a8d805bc20cc85f86a77616c1564"
+    },
+    {
+      "bytes": 436,
+      "path": "data/metadata/modeling_base_coverage.json",
+      "sha256": "8cdcfaba5d09b9ce147d91a9747c5025ca6b78252ea31a7b431952e4abb4bc79"
+    },
+    {
+      "bytes": 3901,
+      "path": "data/metadata/robustness_v001.json",
+      "sha256": "bd7efdd08449007335a540d524ea5927d7ddd69d81742ee8531ae8fd2ebb0c01"
+    },
+    {
+      "bytes": 2496,
+      "path": "data/metadata/series_catalog.csv",
+      "sha256": "8148a6f7698c0e2e4e53e48c0b20293ac0b4b4ed2bd69568f12b179ed6b1b4d1"
+    },
+    {
+      "bytes": 3723,
+      "path": "data/metadata/stress_alert_v001.json",
+      "sha256": "8d5e132a13c72edd5c2e65c0998c17ff13b82b44e78fc7e6f08877ecf0996f22"
+    },
+    {
+      "bytes": 1491,
+      "path": "data/metadata/technical_acceptance_v001.json",
+      "sha256": "88926a45de214bcc6333702505c3b85cb3d8ec4d792b41c27f1cda1e8c7e6a84"
+    },
+    {
+      "bytes": 1,
+      "path": "data/processed/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 110354,
+      "path": "data/processed/model_matrix_consumption_h6_v001.csv",
+      "sha256": "0e3d2473b82af9598e0f22fa80c389ea53857c9f77c44d67dc37ffbbae29222b"
+    },
+    {
+      "bytes": 57587,
+      "path": "data/processed/modeling_base.csv",
+      "sha256": "f0b3d8c64f848c24750cc470e2458fece9ff5f5199f95a960a30f2d7a37ab64f"
+    },
+    {
+      "bytes": 1,
+      "path": "data/raw/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 4638850,
+      "path": "data/raw/bcch/catalog_monthly.json",
+      "sha256": "8df6e30e3298cc694637aaa1176d87d5c323f3706f8cc66b9370d69825e634b3"
+    },
+    {
+      "bytes": 20777,
+      "path": "data/raw/bcch/series__consumer_lending_rate.json",
+      "sha256": "4b302b4a530453e7c32fd90c56a1af0ac26ec9bdd2e02b45c8deffa37030052e"
+    },
+    {
+      "bytes": 22277,
+      "path": "data/raw/bcch/series__imacec_sa.json",
+      "sha256": "4c8b9ba9c10153241502ce72a3688490ef285b58c0fa9638f7e625ca0519ac6f"
+    },
+    {
+      "bytes": 21866,
+      "path": "data/raw/bcch/series__ipc_yoy.json",
+      "sha256": "e523933fd74657febd508ef552631d17990bdb3d7f83fc931b2b601d21ca41b3"
+    },
+    {
+      "bytes": 22474,
+      "path": "data/raw/bcch/series__real_consumer_loans.json",
+      "sha256": "3b3894ecdf53f169670ff6134acbc5be9bc3dd3adcdff534c0e24894cfcce5e2"
+    },
+    {
+      "bytes": 22615,
+      "path": "data/raw/bcch/series__real_m1_average.json",
+      "sha256": "342ceec58c9c748069b15d264122527a32d2a9bf2d2922f224ba9681343e7956"
+    },
+    {
+      "bytes": 20234,
+      "path": "data/raw/bcch/series__tpm_monthly_average.json",
+      "sha256": "a55296841a307cd305662a36013be404efa0ed9f09b7ca5e0256a2c8159f78ed"
+    },
+    {
+      "bytes": 22200,
+      "path": "data/raw/bcch/series__unemployment_rate.json",
+      "sha256": "4ba1869841d5746da9563a3f0ffc3c6c9547655a6116d4931483dca7e96654dd"
+    },
+    {
+      "bytes": 21421,
+      "path": "data/raw/bcch/series__usdclp_monthly_average.json",
+      "sha256": "94f93810ad81b0bd4be56250f06079bc4c8cd175a773cd41d1e214b70ad6ccd3"
+    },
+    {
+      "bytes": 12350,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20140301_20150228.json",
+      "sha256": "8be7a859062467b835214614a66f93cf8471bf192ea1a96465b0e2352f568f65"
+    },
+    {
+      "bytes": 12336,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20150301_20160229.json",
+      "sha256": "db6a54586587bd9fbc3782f65021943fe6fd6f960f7651848ae67a554044cf3d"
+    },
+    {
+      "bytes": 12342,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20160301_20170228.json",
+      "sha256": "0609b8c8473e886a4daf4c8ecf179bbb6a2812cabbef23b99cd84416afb3ee04"
+    },
+    {
+      "bytes": 12344,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20170301_20180228.json",
+      "sha256": "dbef3ed3bb16e9422477c6ab1e8f8efb38504a5735b1799493064b00be065105"
+    },
+    {
+      "bytes": 12360,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20180301_20190228.json",
+      "sha256": "7f2853b0c8141d13b7f6bad299fd0be450c22d3058af5dc7ad7457f01c199e17"
+    },
+    {
+      "bytes": 12344,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20190301_20200229.json",
+      "sha256": "81b2d2a37c8e1854509288de898e5a2c3fad77cd1a6659b125c55523689024f9"
+    },
+    {
+      "bytes": 12352,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20200301_20210228.json",
+      "sha256": "93751c992eb476799d6496d102c09db27057813a87be9abd87294992a9c0c83f"
+    },
+    {
+      "bytes": 12370,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20210301_20220228.json",
+      "sha256": "2e19c445bfef87c51ac841ff3cdc57511f8c31c9a26683a66617983cec5c7292"
+    },
+    {
+      "bytes": 12362,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20220301_20230228.json",
+      "sha256": "c3d24a8162aeb11aa51b05788fc20084b5975c4d8b8610bbcde220847c111ea3"
+    },
+    {
+      "bytes": 12338,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20230301_20240229.json",
+      "sha256": "8e22d27624454e619e5807ef2683f5ec9647ee637b9b2d360bfceae189ff2d8d"
+    },
+    {
+      "bytes": 12334,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20240301_20250228.json",
+      "sha256": "4779c2f5bb10391c7f522588691dc74010631afbc5e0417e2572b56709b0c30c"
+    },
+    {
+      "bytes": 12336,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20250301_20260228.json",
+      "sha256": "b25be50fe5c9cf40c264a4650fc80bc446ea29f30ae78411e912b7b163db4ef6"
+    },
+    {
+      "bytes": 7460,
+      "path": "data/raw/cmf_best/cmf_best__cmf_cont_mor_90dmas_consol_sto_raz_porc_mont__20260301_20260817.json",
+      "sha256": "e5ca6d1101ebd43c623df1fa5cd19ee7b76a800f4a3357280b07a6ad72fc4a7f"
+    },
+    {
+      "bytes": 3533670,
+      "path": "data/raw/cmf_publication_calendar/cmf_press.html",
+      "sha256": "0f431f5deae7ec8b8dcec7ac711dca1e0e754165b7afe234ce99c885a70cb003"
+    },
+    {
+      "bytes": 327,
+      "path": "data/raw/cmf_publication_calendar/cmf_press.metadata.json",
+      "sha256": "c88299aeb7789abf6136668d4c13d86195699bc886ccdad57a786333b85fdf30"
+    },
+    {
+      "bytes": 695410,
+      "path": "data/raw/cmf_publication_calendar/sbif_archive.html",
+      "sha256": "b404d3a28211ed5819159835d3c1658f59b4bcf34a94e7f870a05f0a0e9111be"
+    },
+    {
+      "bytes": 329,
+      "path": "data/raw/cmf_publication_calendar/sbif_archive.metadata.json",
+      "sha256": "499a8db9aa3eedb48c2d99caf3752496f24bfcfd3dbe2c489d3fb5ae3c95cc60"
+    },
+    {
+      "bytes": 2071,
+      "path": "docs/available_dates.md",
+      "sha256": "651af62570917e442d82903fd6ea590b9ecf63186e6ac6276cb091361120968e"
+    },
+    {
+      "bytes": 2379,
+      "path": "docs/baseline_backtest_v1.md",
+      "sha256": "4b28931824a68ec187b100eb8a2bd47829ae310d7baf92fc1b1304f4bdf612d1"
+    },
+    {
+      "bytes": 1478,
+      "path": "docs/data_coverage.md",
+      "sha256": "351c4d2282bf42a0171c28f1352b52c153de86a8ee66dfa800c1ded1f589e345"
+    },
+    {
+      "bytes": 555,
+      "path": "docs/decisions/ADR-001-target-definition.md",
+      "sha256": "e36b52b331adce69adac0d1709e5375813b88536195d8269100d89c734d923f1"
+    },
+    {
+      "bytes": 353,
+      "path": "docs/decisions/ADR-002-forecast-horizon.md",
+      "sha256": "29f077903aee3e2364a4ad1df061c8e06fd39bb9a32dcad58f43cf8927793ce9"
+    },
+    {
+      "bytes": 524,
+      "path": "docs/decisions/ADR-003-sample-and-holdout.md",
+      "sha256": "29f3a151daab2cf205f9d48714946cd6b71b6ce13a1b6ffd0cf18e5565577f71"
+    },
+    {
+      "bytes": 562,
+      "path": "docs/decisions/ADR-004-information-availability.md",
+      "sha256": "487db00471ca5d0c9e4923dfd6d0baa283177eb1cd8851b73d68b68c1401be84"
+    },
+    {
+      "bytes": 911,
+      "path": "docs/decisions/ADR-005-holdout.md",
+      "sha256": "8cbe46d999459c0e85e5199430888de81c50ac3f7e4dad7d032e56a37595eb7a"
+    },
+    {
+      "bytes": 917,
+      "path": "docs/decisions/ADR-006-latest-vintage-data.md",
+      "sha256": "b388c38cf82c37a06989c107846cbb9ec534ce9f4fb4201085092d11fa3db402"
+    },
+    {
+      "bytes": 1656,
+      "path": "docs/decisions/ADR-007-purged-expanding-backtest.md",
+      "sha256": "e382ece58d543137c38194dd137597855fc9d91043b985787e9e8142ee21f8f5"
+    },
+    {
+      "bytes": 1917,
+      "path": "docs/decisions/ADR-008-nested-model-selection.md",
+      "sha256": "00cb08dccc4b8257070f7a73e126cf86793a2ef9268286db2d3a48ea0acc1852"
+    },
+    {
+      "bytes": 1793,
+      "path": "docs/decisions/ADR-009-parsimony-and-block-bootstrap.md",
+      "sha256": "8eb26d520420a048ac5b2a4ae2fbb8a52c396de3307b6fb5a684b8e3be20e50f"
+    },
+    {
+      "bytes": 1916,
+      "path": "docs/decisions/ADR-010-out-of-sample-explainability.md",
+      "sha256": "db6fca6b7e243e73b0dfb0ae17bd068baa3959dc926607a507471499bc4ad3be"
+    },
+    {
+      "bytes": 1966,
+      "path": "docs/decisions/ADR-011-horizon-and-window-robustness.md",
+      "sha256": "c8ebb999596a55097cde2165b5e59aedca4b96841db102342e8f26b0dbe3ef28"
+    },
+    {
+      "bytes": 2073,
+      "path": "docs/decisions/ADR-012-stress-event-and-alert-selection.md",
+      "sha256": "f5975bb00d27bab6213801c4890fed80244b84ae61814abde38c171839be1848"
+    },
+    {
+      "bytes": 1723,
+      "path": "docs/decisions/ADR-013-technical-closure-and-regimes.md",
+      "sha256": "c175351d87afba504685e86ac0050b37c94750cf3670431fbfa1dd31519d8244"
+    },
+    {
+      "bytes": 4130,
+      "path": "docs/explainability_v1.md",
+      "sha256": "c949c73fa9d0037cab32a44625e49f5477558b0afa3bfd7ba27f8ae8bccfb87e"
+    },
+    {
+      "bytes": 3328,
+      "path": "docs/final_delivery.md",
+      "sha256": "ceda55dfa2b10225bfdeb32910e234661b6116102c03eb978e7e21ffc2add235"
+    },
+    {
+      "bytes": 4074,
+      "path": "docs/horizon_robustness_v1.md",
+      "sha256": "3e929cbc4ad34663e403ce536c2619d35ac7db3352924a8400c777b5bd1500bd"
+    },
+    {
+      "bytes": 1542,
+      "path": "docs/joint_coverage.md",
+      "sha256": "005351dd28e783be55215ef207fa70e1951d40627137c5e2960ad5f69804d3f8"
+    },
+    {
+      "bytes": 2664,
+      "path": "docs/ml_backtest_v1.md",
+      "sha256": "c8b45395bf100b87ee044f38da0d34df99a1d666cf57c3cb4867f4d15cab28d9"
+    },
+    {
+      "bytes": 2896,
+      "path": "docs/model_card_v1.md",
+      "sha256": "ea601e686857080bbb5c6a81513ea678da85862291be4286661113968dfa360b"
+    },
+    {
+      "bytes": 1943,
+      "path": "docs/project_charter.md",
+      "sha256": "bdd22eacb1462facce3892247bc2fcefdead977d038041985c23a8f49bde99aa"
+    },
+    {
+      "bytes": 2476,
+      "path": "docs/reproduction.md",
+      "sha256": "f232d3680f65ddf6b80c093f94c7b1587b0c60cedcac0cc5133c0a9334593fdf"
+    },
+    {
+      "bytes": 1295,
+      "path": "docs/reproduction_validation.md",
+      "sha256": "eafc2410e3a83185d0cb2c97e2d49f1f0dd42719bf93b6f98a827849078761e0"
+    },
+    {
+      "bytes": 3257,
+      "path": "docs/robustness_v1.md",
+      "sha256": "e82ffcd447ce5e389fa26a59e324ac910d29650c6684a2cad70d12f288f76cb9"
+    },
+    {
+      "bytes": 5585,
+      "path": "docs/stress_alert_v1.md",
+      "sha256": "da0e348a124e4331359747c5495a033e82d889d4292df0d313be63fcd228adfb"
+    },
+    {
+      "bytes": 2303,
+      "path": "docs/technical_closure_v1.md",
+      "sha256": "a294c213dbd194d3cc1be4938970898fe43c25cc05b30c9c7fdea4e1a8789a26"
+    },
+    {
+      "bytes": 319,
+      "path": "environment.yml",
+      "sha256": "5771673b781dfde6f2fa6973a100b7bc79d2cbcc8da3e6f9fb6cbb1808584328"
+    },
+    {
+      "bytes": 1,
+      "path": "models/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 1,
+      "path": "notebooks/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 6821,
+      "path": "notebooks/00_reproduccion_completa.ipynb",
+      "sha256": "86a4bbdfc23c94b2aeadbf9c532aa5ccbb246bc525c2d2d096063f93d3a15d14"
+    },
+    {
+      "bytes": 70816,
+      "path": "notebooks/01_datos_y_diseno_point_in_time.ipynb",
+      "sha256": "19a21155fea12e735f4555b44d8c5d60ce1fcc9b7ab194b4af99c21805ba1643"
+    },
+    {
+      "bytes": 93917,
+      "path": "notebooks/02_validacion_modelos_y_robustez.ipynb",
+      "sha256": "3d80954dbf4a3fc44cad373284d26f69142fa1354a86fbf844bf43facac648a1"
+    },
+    {
+      "bytes": 56436,
+      "path": "notebooks/03_alerta_de_estres_y_conclusiones.ipynb",
+      "sha256": "efa68ae9ec5646a093a9c7e37b4773a3542176261634c7f5839e798c8aa88edd"
+    },
+    {
+      "bytes": 924,
+      "path": "pyproject.toml",
+      "sha256": "cdd3a9f1cc946d56a0a8e8e2732dcf11ffc921f03d9b36bfe5726c62c9111256"
+    },
+    {
+      "bytes": 6819,
+      "path": "README.md",
+      "sha256": "8557488c7d6c21cfa265bf1e78d5fc0f3d86dd5c335e5e5111f0b523312eb7ec"
+    },
+    {
+      "bytes": 1,
+      "path": "reports/figures/.gitkeep",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 127977,
+      "path": "reports/figures/global_feature_importance.png",
+      "sha256": "52d8110dd6d5cbce8a453754e92b1aeaf98bfab3ee69150d6f519b6fd65d1197"
+    },
+    {
+      "bytes": 88329,
+      "path": "reports/figures/horizon_robustness.png",
+      "sha256": "4b1f4fcd82c432377994ce866940d3a7e9fbe44de01f0b7b29ff271ea4613c50"
+    },
+    {
+      "bytes": 218029,
+      "path": "reports/figures/oos_predictions_timeline.png",
+      "sha256": "4aa4f803b28945d6b67a1ea37cd893a2b86e831bbadd5f3edeba7190720cdef1"
+    },
+    {
+      "bytes": 80708,
+      "path": "reports/figures/regime_performance.png",
+      "sha256": "37d47752b5cf831ea1399ea86859d6da489579bbc349f2bbbacd982c86560fe7"
+    },
+    {
+      "bytes": 261869,
+      "path": "reports/figures/stress_alert_evaluation.png",
+      "sha256": "5ca264ed6db530a1199499b2b4996d03d422b3b7c67b6a055a58208a3ad5b4bc"
+    },
+    {
+      "bytes": 6576,
+      "path": "reports/reproduction_baseline.json",
+      "sha256": "8c5f1c86e0d08b82bc03a398d332ebc815a833ed9340f5a6f2011adbc9a8e514"
+    },
+    {
+      "bytes": 2156,
+      "path": "reports/reproduction_comparison.json",
+      "sha256": "429224c7c89d0ed6380b8c49e3d5e080b1a6565e6fa8b1eb2bf523bc8045721b"
+    },
+    {
+      "bytes": 3290,
+      "path": "reports/tables/baseline_metrics_development.csv",
+      "sha256": "7b9b75e9dd91521c207339c9c5cce8876345bb1aaea79e41a8cce1ced58408e3"
+    },
+    {
+      "bytes": 29692,
+      "path": "reports/tables/baseline_predictions_development.csv",
+      "sha256": "0a42dcb61aa8377f3478b2a34b2c255551d75ddb50cf3b6e9ef6fa04491e019b"
+    },
+    {
+      "bytes": 3870,
+      "path": "reports/tables/critical_months.csv",
+      "sha256": "ff8987817037627389d5ea46d695d058d6858d1fed18994d18d876a83b1e4589"
+    },
+    {
+      "bytes": 9137,
+      "path": "reports/tables/driver_rank_stability.csv",
+      "sha256": "ffc120dbcad6d22a5889def75f6a6a8cee7a153b4a9508ee526fa204da911b34"
+    },
+    {
+      "bytes": 551539,
+      "path": "reports/tables/feature_attributions_oos.csv",
+      "sha256": "c813e0d5125947a3e9f0cc69110a12b1e529fbe42938ab198ea0c630086e4f1c"
+    },
+    {
+      "bytes": 41159,
+      "path": "reports/tables/feature_importance_by_fold.csv",
+      "sha256": "108e2818cd7f2a094eb97cc65ee661f87c709ab2be734708623510938dd9f4c1"
+    },
+    {
+      "bytes": 13043,
+      "path": "reports/tables/feature_importance_global.csv",
+      "sha256": "dcb4d0b08a0a75c106443c0795c836873b74dae4ccd2c8272a413fc7b6fb9fca"
+    },
+    {
+      "bytes": 1163,
+      "path": "reports/tables/fold_rank_correlations.csv",
+      "sha256": "057ca47302c14cf73ac82277bc94690a41139c922676001c7db25a9ddecf4fd7"
+    },
+    {
+      "bytes": 1052,
+      "path": "reports/tables/horizon_robustness_bootstrap.csv",
+      "sha256": "1a1fba1ce3d5606f18a8c7d4a983744663127da84e209ab861a68aee552ca888"
+    },
+    {
+      "bytes": 7961,
+      "path": "reports/tables/horizon_robustness_metrics.csv",
+      "sha256": "3c013721ec35d7c8bf9b98d51747b2e2feb8fa1e1a15cde261b6fe3ee9cb5cd7"
+    },
+    {
+      "bytes": 99894,
+      "path": "reports/tables/horizon_robustness_predictions.csv",
+      "sha256": "ccadfc53307c04e608e3ef9fc54bc4f4f083c9cf8c25f29e1e2e2b944ae2ce55"
+    },
+    {
+      "bytes": 45789,
+      "path": "reports/tables/horizon_robustness_tuning.csv",
+      "sha256": "ff5a3224f8446189d3f620cd442adb07b0604c015fc2d8be231910f8aff86df5"
+    },
+    {
+      "bytes": 590,
+      "path": "reports/tables/horizon_window_comparison.csv",
+      "sha256": "93e964c574dbe6fdf664d46816e568d08db4fffc41ec481d90fe84d49003fdcf"
+    },
+    {
+      "bytes": 33303,
+      "path": "reports/tables/ml_predictions_development.csv",
+      "sha256": "d5488d00fc156bf5bf237b03549c55dddeec49af2fe91f88fb6d31ba4aae5d89"
+    },
+    {
+      "bytes": 19194,
+      "path": "reports/tables/ml_tuning_development.csv",
+      "sha256": "8067b083e66636fd9cd09a8e6c1fcf407e4f43ed67791fabd316aba29c60202c"
+    },
+    {
+      "bytes": 5201,
+      "path": "reports/tables/model_comparison_development.csv",
+      "sha256": "fd340aa67f26de07cc3f29cdb2062c0e69145fd669283d8ab81fef93cc95ee9f"
+    },
+    {
+      "bytes": 6024,
+      "path": "reports/tables/parsimonious_model_comparison.csv",
+      "sha256": "4c6ef23c80ebf84a6fdafa00e5feb809ebebd76110a4199049114cbe990eaa37"
+    },
+    {
+      "bytes": 40718,
+      "path": "reports/tables/parsimonious_predictions_development.csv",
+      "sha256": "8717ed65156a76ab7e325dd36c93a9de033423106b388f301de910d23dff44c8"
+    },
+    {
+      "bytes": 30216,
+      "path": "reports/tables/parsimonious_tuning_development.csv",
+      "sha256": "104e8930de725c734defd176e1f6969ea9c2ec867d63c3d7326acf209cdd2a34"
+    },
+    {
+      "bytes": 6582,
+      "path": "reports/tables/regime_membership_development.csv",
+      "sha256": "aa53c7e4bdf98d2ba1d15d20583fde18b51b1f4f404029118c642e660c15578f"
+    },
+    {
+      "bytes": 4904,
+      "path": "reports/tables/regression_metrics_by_regime.csv",
+      "sha256": "3d5955a98593a8e82cd8e7b9a61d863c74ed5ccf11d9d080fb9f0ee508504fb7"
+    },
+    {
+      "bytes": 3070,
+      "path": "reports/tables/stability_vs_zero_development.csv",
+      "sha256": "b93a82a550f3ac0a3a6cfbaf72fd2a6174240d476eb86a8568365c61d55c033c"
+    },
+    {
+      "bytes": 595,
+      "path": "reports/tables/stress_alert_brier_bootstrap.csv",
+      "sha256": "c07c45fd6431cb384c9c36c1344ba3404755aa0b9f69574b7fc72b45d186de1b"
+    },
+    {
+      "bytes": 1190,
+      "path": "reports/tables/stress_alert_calibration_development.csv",
+      "sha256": "afb1101458aa6bb58ed844e5be615c332acfed763efca6a2aaa5dfc356c9e5d2"
+    },
+    {
+      "bytes": 583,
+      "path": "reports/tables/stress_alert_episode_detection.csv",
+      "sha256": "befacef834d0c4dca6bc444e80df95cefbc9976f492a1132aed199187bd39fcd"
+    },
+    {
+      "bytes": 6763,
+      "path": "reports/tables/stress_alert_errors_development.csv",
+      "sha256": "002e27920124dcd415dcedcf5a4d51be5256fa5eddf2aca0b1d1e59fbb9cbd71"
+    },
+    {
+      "bytes": 8424,
+      "path": "reports/tables/stress_alert_metrics_by_regime.csv",
+      "sha256": "42b20b9bffe2c0a30bc61d67b69d3fa9eff9210dae40e990007a8bb9d7045c93"
+    },
+    {
+      "bytes": 5102,
+      "path": "reports/tables/stress_alert_metrics_development.csv",
+      "sha256": "cee97cebf17cef54a81f8144af23d87f4c154b8cc3dfc376c5b64114743bb56e"
+    },
+    {
+      "bytes": 43807,
+      "path": "reports/tables/stress_alert_predictions_development.csv",
+      "sha256": "303281bcb5b000de4553d2fcea6bfe51e5a926aa28da0fdc19df09bb5be12f21"
+    },
+    {
+      "bytes": 8653,
+      "path": "reports/tables/stress_alert_threshold_tuning_development.csv",
+      "sha256": "11f7b88817ec9c78dd2e2369ce861b11a407e723da40bd02fdf24a1dc9bde2c5"
+    },
+    {
+      "bytes": 18372,
+      "path": "reports/tables/stress_alert_tuning_development.csv",
+      "sha256": "3ddb9b279e4fc9991b8bc6321f38d0ba12233584607d630a5df147aeafee9e67"
+    },
+    {
+      "bytes": 39624,
+      "path": "scripts/build_final_report.py",
+      "sha256": "8f5346d40454767bdb24943801055af203f6848178b4b8d1267d2422ee996c53"
+    },
+    {
+      "bytes": 16340,
+      "path": "scripts/create_reproduction_notebooks.py",
+      "sha256": "df4d57942f47535361e86885a1fa575952002b7228e98028fe661ddca4395df3"
+    },
+    {
+      "bytes": 1312,
+      "path": "scripts/execute_notebooks.py",
+      "sha256": "b6441cb38cb24ce5bd5010a30d252919cf250b9d8e80873311a7853160d6816a"
+    },
+    {
+      "bytes": 11665,
+      "path": "scripts/run_reproduction.py",
+      "sha256": "e43aab377a303bfb92cba0e30b1876e8a3ee33c54d860d69a80f0e9270045456"
+    },
+    {
+      "bytes": 1,
+      "path": "src/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 96,
+      "path": "src/morosidad_bancaria/__init__.py",
+      "sha256": "1e7bb9dfe17f5e9fa45c0e16540652f29266a846d11538f7e82d4bc00c8a924e"
+    },
+    {
+      "bytes": 80,
+      "path": "src/morosidad_bancaria/__main__.py",
+      "sha256": "91a287f6ffc5fe4139866f2385340a2951e1e90e7c60d93b69c60e758e354d53"
+    },
+    {
+      "bytes": 36326,
+      "path": "src/morosidad_bancaria/cli.py",
+      "sha256": "d3bbc18e5691cca3a18b8f362e5c867a8200e5ef1f0f41ddc8770d102a702a09"
+    },
+    {
+      "bytes": 4128,
+      "path": "src/morosidad_bancaria/config.py",
+      "sha256": "0d7bcacf4be51e5700c1947897560be5be476f35cc3b3df832b53d025f8118f2"
+    },
+    {
+      "bytes": 50,
+      "path": "src/morosidad_bancaria/data/__init__.py",
+      "sha256": "2f3d53e9d98fdfafc86c837a5b5831069b7d63e3ee9554bde0ae4f4581df5908"
+    },
+    {
+      "bytes": 6567,
+      "path": "src/morosidad_bancaria/data/bcch.py",
+      "sha256": "2c243fdc1dbc911c802f231bd26eeea33c844b0248307f64b851e860ac2f3790"
+    },
+    {
+      "bytes": 6640,
+      "path": "src/morosidad_bancaria/data/bcch_series.py",
+      "sha256": "a44ac619dc83a10c12739057f99040efdcc628557fdb1255e27b37aa292abe74"
+    },
+    {
+      "bytes": 7286,
+      "path": "src/morosidad_bancaria/data/cmf_best.py",
+      "sha256": "bfdb7a2ad356d1d4fc234ee91fdfc07fbf6dc1f2aad3a1204a5f8c57318ac7dc"
+    },
+    {
+      "bytes": 7233,
+      "path": "src/morosidad_bancaria/data/modeling_base.py",
+      "sha256": "af806882223d601e9c543f34dfe490259562e5d5621323009a540a0c1842ec70"
+    },
+    {
+      "bytes": 10967,
+      "path": "src/morosidad_bancaria/data/publication_calendar.py",
+      "sha256": "98aabc1c39cf633e6972d7e8e2a09eda8e967c0479268355551578c1dfdc4641"
+    },
+    {
+      "bytes": 5937,
+      "path": "src/morosidad_bancaria/data/target.py",
+      "sha256": "4bbaf11bea328a0aea67bfeabecb5ae9e21aeb2f70e2d3428eee1890ecca6b55"
+    },
+    {
+      "bytes": 64,
+      "path": "src/morosidad_bancaria/modeling/__init__.py",
+      "sha256": "8c1aa800de13de78838a20092c16ef7551fd758aaf0bd3ff3f745645065b02f3"
+    },
+    {
+      "bytes": 8381,
+      "path": "src/morosidad_bancaria/modeling/backtest.py",
+      "sha256": "fd10f73ac09070fd290074fc648a902cabfd142b14f4f45477069dfb7689d7ea"
+    },
+    {
+      "bytes": 24646,
+      "path": "src/morosidad_bancaria/modeling/explainability.py",
+      "sha256": "0464efb53022e28615ef1873246b8f7074bd9a91f07afe45c39934e090f0b789"
+    },
+    {
+      "bytes": 9608,
+      "path": "src/morosidad_bancaria/modeling/features.py",
+      "sha256": "cfd5fa40df77074dd96b1abf0c6c239cd0bb3a59ee6b9b2d0d0a2a04071f785b"
+    },
+    {
+      "bytes": 20433,
+      "path": "src/morosidad_bancaria/modeling/horizon_robustness.py",
+      "sha256": "40437340a0cf21ba06f520b23df163f71d1ff7695553f1bab388a9514514d1eb"
+    },
+    {
+      "bytes": 5947,
+      "path": "src/morosidad_bancaria/modeling/metrics.py",
+      "sha256": "e48d5dc840055b96a2a39614591bad88e39ac832f1bd564f2568c67a7e79bd55"
+    },
+    {
+      "bytes": 15526,
+      "path": "src/morosidad_bancaria/modeling/ml_backtest.py",
+      "sha256": "0b2e9a318e09761444dc6819f5c7dad6d3011a9224e81dd5dd00d85893f28ed1"
+    },
+    {
+      "bytes": 14041,
+      "path": "src/morosidad_bancaria/modeling/robustness.py",
+      "sha256": "b3738dd3f2842b70a11315799e1d0c60f981a0c7753e3738480221abd5c45fca"
+    },
+    {
+      "bytes": 36689,
+      "path": "src/morosidad_bancaria/modeling/stress_alert.py",
+      "sha256": "84374ef02baa21e7ca9c0c0af34087a580a2fdc36800f70f58f6cb901e0f43a2"
+    },
+    {
+      "bytes": 4838,
+      "path": "src/morosidad_bancaria/modeling/temporal.py",
+      "sha256": "1cff7875515769b9c046057fc9f8f8a6554d282e000ae522c95c9cbcfbdc93df"
+    },
+    {
+      "bytes": 31463,
+      "path": "src/morosidad_bancaria/technical_closure.py",
+      "sha256": "f0384ccde44cf997c3362ac7a1d7fb60f3ee5d302e7980de3bf905ef91821ebb"
+    },
+    {
+      "bytes": 1495,
+      "path": "tests/test_bcch.py",
+      "sha256": "d91169acbad54141591f0d1fdd7c03e94a4dc4e7236ae1da99277380d4b6d15d"
+    },
+    {
+      "bytes": 1728,
+      "path": "tests/test_bcch_series.py",
+      "sha256": "fa210bafd4cd026a48e5316b13e2ce5a584b03451ac3f02d76363a764fc04456"
+    },
+    {
+      "bytes": 1511,
+      "path": "tests/test_cmf_best.py",
+      "sha256": "7126ba9ee1324463e1ef690f800cf350a96a867dfa06e4aec36252c24906f6f8"
+    },
+    {
+      "bytes": 2016,
+      "path": "tests/test_config.py",
+      "sha256": "26b2563b041574e049523c23cd8e5a7b9286738a813ae41cad8b1c2fcfed3378"
+    },
+    {
+      "bytes": 2799,
+      "path": "tests/test_explainability.py",
+      "sha256": "85134eafe693954e2a854e13b41fbe48e4f9adf2eb3313178f44676009e46248"
+    },
+    {
+      "bytes": 2067,
+      "path": "tests/test_features.py",
+      "sha256": "6b829078709edb26bc5a5910e80f21ab43d8720d6179ee776a851a49efe8cd71"
+    },
+    {
+      "bytes": 1196,
+      "path": "tests/test_horizon_robustness.py",
+      "sha256": "1f79cd023bc57afe58d7425f2586da371e1bb8ba2ee474ce58015220a8f1fca5"
+    },
+    {
+      "bytes": 1329,
+      "path": "tests/test_metrics.py",
+      "sha256": "ad2fdee6b3b3ce0c13346246fc3b663bb7ceab027b704e92fd5d642cfcc8727e"
+    },
+    {
+      "bytes": 1317,
+      "path": "tests/test_ml_backtest.py",
+      "sha256": "c151c36239ec2a3d0db9939b19159abdc072801a69946409967ecb1193dadecf"
+    },
+    {
+      "bytes": 2189,
+      "path": "tests/test_modeling_base.py",
+      "sha256": "9c08f196858ad04a696d41f5a7f8570f7bdf6608af0308db6e1df41f26e37555"
+    },
+    {
+      "bytes": 1874,
+      "path": "tests/test_publication_calendar.py",
+      "sha256": "276da5dd00a86dee0e477b1f60048d5f3de169ea7f85c576c9c77991039445ea"
+    },
+    {
+      "bytes": 1669,
+      "path": "tests/test_robustness.py",
+      "sha256": "1176cf8e3eeca1003d6ffe35925da5a3fdde7085fd29a62e2cf668187e28d156"
+    },
+    {
+      "bytes": 2740,
+      "path": "tests/test_stress_alert.py",
+      "sha256": "b045e2f4794ce48c4d13115e365c707178792b49c65750cbf1ff258dce2c20e6"
+    },
+    {
+      "bytes": 1785,
+      "path": "tests/test_target.py",
+      "sha256": "4440d688646e1db7a13317bd2ece334c37e7a2f82b95320f54a11d2b10add6dd"
+    },
+    {
+      "bytes": 2720,
+      "path": "tests/test_technical_closure.py",
+      "sha256": "e0a48c2a30c85438d5b7894d1e143545056ada4b18cee0372a9db2dc2432dbf7"
+    },
+    {
+      "bytes": 2406,
+      "path": "tests/test_temporal.py",
+      "sha256": "f12d712036eba8730a4bfde814f2f350a90be3c6e27ba8cdf3336c5a600011e5"
+    }
+  ],
+  "git": {
+    "head": "8eb3873be5d85a8b598d7022f1073c03feb182f3",
+    "head_available": true,
+    "status_entries": [
+      "?? ./",
+      "?? ../chile-bank-delinquency-ml/",
+      "?? ../morosidad_bancaria_chile/"
+    ],
+    "worktree_clean": false
+  },
+  "secret_policy": "El archivo .env se excluye del manifiesto y de Git.",
+  "total_bytes": 12090401
+}

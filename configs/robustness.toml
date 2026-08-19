@@ -1,0 +1,72 @@
+[bootstrap]
+block_length_months = 6
+replications = 10000
+random_seed = 20260817
+pandemic_period_end = "2021-02-01"
+
+[[feature_sets]]
+name = "full_23"
+features = [
+  "npl90_level_t",
+  "npl90_lag_1m",
+  "npl90_lag_3m",
+  "npl90_lag_6m",
+  "npl90_lag_12m",
+  "npl90_change_1m_pp",
+  "npl90_change_3m_pp",
+  "npl90_change_12m_pp",
+  "npl90_rolling_mean_3m",
+  "npl90_rolling_mean_6m",
+  "npl90_rolling_mean_12m",
+  "imacec_yoy_pct",
+  "ipc_yoy",
+  "unemployment_rate",
+  "tpm_monthly_average",
+  "tpm_change_3m_pp",
+  "usdclp_yoy_pct",
+  "consumer_lending_rate",
+  "consumer_lending_rate_change_3m_pp",
+  "real_consumer_loans_yoy_pct",
+  "real_m1_yoy_pct",
+  "month_sin",
+  "month_cos",
+]
+
+[[feature_sets]]
+name = "core_10"
+features = [
+  "npl90_level_t",
+  "npl90_lag_6m",
+  "npl90_change_3m_pp",
+  "npl90_change_12m_pp",
+  "imacec_yoy_pct",
+  "ipc_yoy",
+  "unemployment_rate",
+  "tpm_change_3m_pp",
+  "usdclp_yoy_pct",
+  "real_consumer_loans_yoy_pct",
+]
+
+[[feature_sets]]
+name = "macro_core_8"
+features = [
+  "npl90_level_t",
+  "imacec_yoy_pct",
+  "ipc_yoy",
+  "unemployment_rate",
+  "tpm_change_3m_pp",
+  "usdclp_yoy_pct",
+  "real_consumer_loans_yoy_pct",
+  "real_m1_yoy_pct",
+]
+
+[[feature_sets]]
+name = "ar_core_5"
+features = [
+  "npl90_level_t",
+  "npl90_lag_6m",
+  "npl90_lag_12m",
+  "npl90_change_3m_pp",
+  "npl90_change_12m_pp",
+]
+

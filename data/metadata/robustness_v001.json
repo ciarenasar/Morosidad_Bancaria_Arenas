@@ -1,0 +1,166 @@
+{
+  "bootstrap": {
+    "block_length_months": 6,
+    "loss": "absolute_error_difference_model_minus_zero",
+    "method": "circular_moving_block_bootstrap",
+    "random_seed": 20260817,
+    "replications": 10000
+  },
+  "feature_sets": [
+    {
+      "features": [
+        "npl90_level_t",
+        "npl90_lag_1m",
+        "npl90_lag_3m",
+        "npl90_lag_6m",
+        "npl90_lag_12m",
+        "npl90_change_1m_pp",
+        "npl90_change_3m_pp",
+        "npl90_change_12m_pp",
+        "npl90_rolling_mean_3m",
+        "npl90_rolling_mean_6m",
+        "npl90_rolling_mean_12m",
+        "imacec_yoy_pct",
+        "ipc_yoy",
+        "unemployment_rate",
+        "tpm_monthly_average",
+        "tpm_change_3m_pp",
+        "usdclp_yoy_pct",
+        "consumer_lending_rate",
+        "consumer_lending_rate_change_3m_pp",
+        "real_consumer_loans_yoy_pct",
+        "real_m1_yoy_pct",
+        "month_sin",
+        "month_cos"
+      ],
+      "name": "full_23"
+    },
+    {
+      "features": [
+        "npl90_level_t",
+        "npl90_lag_6m",
+        "npl90_change_3m_pp",
+        "npl90_change_12m_pp",
+        "imacec_yoy_pct",
+        "ipc_yoy",
+        "unemployment_rate",
+        "tpm_change_3m_pp",
+        "usdclp_yoy_pct",
+        "real_consumer_loans_yoy_pct"
+      ],
+      "name": "core_10"
+    },
+    {
+      "features": [
+        "npl90_level_t",
+        "imacec_yoy_pct",
+        "ipc_yoy",
+        "unemployment_rate",
+        "tpm_change_3m_pp",
+        "usdclp_yoy_pct",
+        "real_consumer_loans_yoy_pct",
+        "real_m1_yoy_pct"
+      ],
+      "name": "macro_core_8"
+    },
+    {
+      "features": [
+        "npl90_level_t",
+        "npl90_lag_6m",
+        "npl90_lag_12m",
+        "npl90_change_3m_pp",
+        "npl90_change_12m_pp"
+      ],
+      "name": "ar_core_5"
+    }
+  ],
+  "folds": [
+    {
+      "fold_id": 1,
+      "observation_dates": [
+        "2020-03-01",
+        "2020-04-01",
+        "2020-05-01",
+        "2020-06-01",
+        "2020-07-01",
+        "2020-08-01",
+        "2020-09-01",
+        "2020-10-01",
+        "2020-11-01",
+        "2020-12-01",
+        "2021-01-01",
+        "2021-02-01"
+      ],
+      "test_end": "2021-02-01",
+      "test_start": "2020-03-01"
+    },
+    {
+      "fold_id": 2,
+      "observation_dates": [
+        "2021-03-01",
+        "2021-04-01",
+        "2021-05-01",
+        "2021-06-01",
+        "2021-07-01",
+        "2021-08-01",
+        "2021-09-01",
+        "2021-10-01",
+        "2021-11-01",
+        "2021-12-01",
+        "2022-01-01",
+        "2022-02-01"
+      ],
+      "test_end": "2022-02-01",
+      "test_start": "2021-03-01"
+    },
+    {
+      "fold_id": 3,
+      "observation_dates": [
+        "2022-03-01",
+        "2022-04-01",
+        "2022-05-01",
+        "2022-06-01",
+        "2022-07-01",
+        "2022-08-01",
+        "2022-09-01",
+        "2022-10-01",
+        "2022-11-01",
+        "2022-12-01",
+        "2023-01-01",
+        "2023-02-01"
+      ],
+      "test_end": "2023-02-01",
+      "test_start": "2022-03-01"
+    },
+    {
+      "fold_id": 4,
+      "observation_dates": [
+        "2023-03-01",
+        "2023-04-01",
+        "2023-05-01",
+        "2023-06-01",
+        "2023-07-01",
+        "2023-08-01",
+        "2023-09-01",
+        "2023-10-01",
+        "2023-11-01",
+        "2023-12-01"
+      ],
+      "test_end": "2023-12-01",
+      "test_start": "2023-03-01"
+    }
+  ],
+  "holdout_policy": "No se seleccionó, ajustó ni evaluó sobre el holdout.",
+  "pandemic_period_end": "2021-02-01",
+  "summary": {
+    "evaluated_splits": [
+      "development"
+    ],
+    "evaluation_origins": 46,
+    "feature_sets": 4,
+    "folds": 4,
+    "inner_predictions_evaluated": 2304,
+    "prediction_rows": 184,
+    "tuning_candidates_evaluated": 192
+  }
+}

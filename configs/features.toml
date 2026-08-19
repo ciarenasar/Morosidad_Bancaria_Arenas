@@ -1,0 +1,78 @@
+[feature_set]
+name = "consumption_h6_v001"
+npl_lags = [1, 3, 6, 12]
+npl_changes = [1, 3, 12]
+npl_rolling_means = [3, 6, 12]
+include_month_seasonality = true
+
+[[macro_features]]
+name = "imacec_yoy_pct"
+source = "imacec_sa"
+operation = "pct_change"
+periods = 12
+
+[[macro_features]]
+name = "ipc_yoy"
+source = "ipc_yoy"
+operation = "level"
+periods = 0
+
+[[macro_features]]
+name = "unemployment_rate"
+source = "unemployment_rate"
+operation = "level"
+periods = 0
+
+[[macro_features]]
+name = "tpm_monthly_average"
+source = "tpm_monthly_average"
+operation = "level"
+periods = 0
+
+[[macro_features]]
+name = "tpm_change_3m_pp"
+source = "tpm_monthly_average"
+operation = "difference"
+periods = 3
+
+[[macro_features]]
+name = "usdclp_yoy_pct"
+source = "usdclp_monthly_average"
+operation = "pct_change"
+periods = 12
+
+[[macro_features]]
+name = "consumer_lending_rate"
+source = "consumer_lending_rate"
+operation = "level"
+periods = 0
+
+[[macro_features]]
+name = "consumer_lending_rate_change_3m_pp"
+source = "consumer_lending_rate"
+operation = "difference"
+periods = 3
+
+[[macro_features]]
+name = "real_consumer_loans_yoy_pct"
+source = "real_consumer_loans"
+operation = "pct_change"
+periods = 12
+
+[[macro_features]]
+name = "real_m1_yoy_pct"
+source = "real_m1_average"
+operation = "pct_change"
+periods = 12
+
+[autoregressive_baseline]
+features = [
+  "npl90_level_t",
+  "npl90_lag_1m",
+  "npl90_lag_3m",
+  "npl90_lag_6m",
+  "npl90_lag_12m",
+  "npl90_change_1m_pp",
+  "npl90_change_3m_pp",
+  "npl90_change_12m_pp",
+]

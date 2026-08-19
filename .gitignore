@@ -1,0 +1,47 @@
+# Credenciales y configuración local
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datos generados (se conservan solo marcadores y metadatos versionables)
+data/raw/*
+!data/raw/.gitkeep
+data/interim/*
+!data/interim/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/metadata/download_manifest.jsonl
+data/metadata/cmf_target_coverage.json
+
+# Artefactos de modelos y reportes generados
+models/*
+!models/.gitkeep
+reports/figures/*
+!reports/figures/.gitkeep
+
+# Entregables finales omitidos de esta copia
+deliverables/
+
+# Outputs temporales
+*.log
+mlruns/
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

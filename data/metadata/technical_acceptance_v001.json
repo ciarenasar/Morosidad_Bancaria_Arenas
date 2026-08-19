@@ -1,0 +1,74 @@
+{
+  "checks": [
+    {
+      "expected": 148,
+      "id": "monthly_rows",
+      "observed": 148,
+      "passed": true
+    },
+    {
+      "expected": 0,
+      "id": "availability_violations",
+      "observed": 0,
+      "passed": true
+    },
+    {
+      "expected": 23,
+      "id": "feature_count",
+      "observed": 23,
+      "passed": true
+    },
+    {
+      "expected": 106,
+      "id": "complete_development_rows",
+      "observed": 106,
+      "passed": true
+    },
+    {
+      "expected": 24,
+      "id": "holdout_rows_reserved",
+      "observed": 24,
+      "passed": true
+    },
+    {
+      "expected": 46,
+      "id": "regression_evaluation_origins",
+      "observed": 46,
+      "passed": true
+    },
+    {
+      "expected": 46,
+      "id": "alert_evaluation_origins",
+      "observed": 46,
+      "passed": true
+    },
+    {
+      "expected": true,
+      "id": "alert_probability_bounds",
+      "observed": true,
+      "passed": true
+    },
+    {
+      "expected": 0,
+      "id": "holdout_rows_evaluated",
+      "observed": 0,
+      "passed": true
+    },
+    {
+      "expected": [],
+      "id": "required_closure_artifacts",
+      "observed": [],
+      "passed": true
+    },
+    {
+      "expected": true,
+      "id": "env_ignore_rule",
+      "observed": true,
+      "passed": true
+    }
+  ],
+  "checks_passed": 11,
+  "checks_total": 11,
+  "holdout_policy": "El holdout permanece cerrado.",
+  "status": "passed"
+}

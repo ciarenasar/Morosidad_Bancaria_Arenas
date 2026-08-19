@@ -1,0 +1,30 @@
+[regimes]
+pandemic_start = "2020-03-01"
+pandemic_end = "2021-02-01"
+high_inflation_threshold_pct = 6.0
+high_policy_rate_threshold_pct = 5.0
+activity_contraction_threshold_pct = 0.0
+
+[acceptance]
+expected_monthly_rows = 148
+expected_feature_count = 23
+expected_complete_development_rows = 106
+expected_holdout_rows = 24
+expected_evaluation_origins = 46
+expected_regression_models = [
+  "zero_change",
+  "elastic_net",
+  "random_forest",
+  "xgboost",
+]
+expected_alert_models = [
+  "historical_prevalence",
+  "logistic_regression",
+  "random_forest",
+  "xgboost",
+]
+
+[reproduction]
+manifest_algorithm = "sha256"
+exclude_names = [".env", "reproduction_manifest_v001.json"]
+

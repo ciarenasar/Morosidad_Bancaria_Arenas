@@ -1,0 +1,16 @@
+[target]
+horizon_months = 6
+
+[split]
+development_end = "2023-12-01"
+holdout_start = "2024-01-01"
+holdout_end = "2025-12-01"
+
+[validation]
+scheme = "expanding_window"
+minimum_training_months = 60
+test_window_months = 12
+step_months = 12
+refit_frequency = "monthly"
+target_availability_purge = true
+holdout_locked = true

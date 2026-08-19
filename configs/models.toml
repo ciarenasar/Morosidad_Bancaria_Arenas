@@ -1,0 +1,27 @@
+[selection]
+metric = "mae"
+retune_frequency = "outer_fold"
+inner_validation_origins = 12
+minimum_inner_training_rows = 24
+random_seed = 42
+
+[elastic_net]
+alphas = [0.001, 0.01, 0.1, 0.5]
+l1_ratios = [0.1, 0.5, 0.9]
+max_iter = 20000
+
+[random_forest]
+n_estimators = 200
+max_depths = [2, 4]
+min_samples_leaf = [2, 5]
+max_features = [0.5, 1.0]
+
+[xgboost]
+n_estimators = 150
+max_depths = [2, 3]
+learning_rates = [0.03, 0.1]
+min_child_weights = [2.0, 5.0]
+subsample = 0.8
+colsample_bytree = 0.8
+reg_lambda = 1.0
+

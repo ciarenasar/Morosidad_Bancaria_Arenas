@@ -1,0 +1,30 @@
+{
+  "additivity_tolerance": 1e-06,
+  "critical_month_selection": {
+    "largest_absolute_actual_changes": 5,
+    "largest_elastic_net_absolute_errors": 5
+  },
+  "holdout_policy": "Todas las explicaciones corresponden a development.",
+  "methods": {
+    "elastic_net": "standardized_linear_contribution",
+    "random_forest": "mean_decrease_impurity",
+    "xgboost": "exact_tree_shap_pred_contribs"
+  },
+  "models": [
+    "elastic_net",
+    "xgboost",
+    "random_forest"
+  ],
+  "rank_ties": "average_rank_for_equal_mean_absolute_attribution",
+  "summary": {
+    "attribution_rows": 3174,
+    "critical_months": 6,
+    "evaluated_splits": [
+      "development"
+    ],
+    "evaluation_origins": 46,
+    "feature_count": 23,
+    "maximum_additivity_gap": 2.1071173250675201e-07,
+    "models": 3
+  }
+}

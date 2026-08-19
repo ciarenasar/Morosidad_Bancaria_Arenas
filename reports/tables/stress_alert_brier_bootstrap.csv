@@ -1,0 +1,4 @@
+model,n,brier_difference_vs_prevalence,loss_difference_ci95_lower,loss_difference_ci95_upper,bootstrap_probability_better_than_prevalence,paired_month_win_rate,block_length_months,bootstrap_replications,ci_conclusion
+logistic_regression,46,0.028696173435921332,-0.18728077872096532,0.21717980759377448,0.3828,0.717391304347826,6,10000,inconclusive
+random_forest,46,0.005963957109687135,-0.21808350554215922,0.2119520032530617,0.4712,0.45652173913043476,6,10000,inconclusive
+xgboost,46,0.05064201523063481,-0.1922178925480653,0.2918874270765737,0.3428,0.5869565217391305,6,10000,inconclusive

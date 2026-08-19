@@ -1,0 +1,29 @@
+[project]
+name = "morosidad-bancaria-chile"
+timezone = "America/Santiago"
+
+[forecast]
+observation_frequency = "monthly"
+horizon_months = 6
+target_transformation = "difference_percentage_points"
+issuance_rule = "cmf_effective_publication_date"
+
+[cmf_best]
+base_url = "https://apibest.cmfchile.cl"
+chart_tag = "CMF_CONT_MOR_90DMAS_CONSOL_STO_RAZ_PORC_MONT"
+target_series_code = "CMF_CONT_MOR_90DMAS_CONSOL_CCS_STO_RAZ_PORC_MONT"
+known_start_date = "2014-03-01"
+max_months_per_request = 12
+min_interval_seconds = 6.1
+timeout_seconds = 30
+max_retries = 3
+
+[publication_calendar]
+cmf_press_url = "https://www.cmfchile.cl/portal/prensa/615/w3-propertyvalue-43349.html"
+sbif_archive_url = "https://cronologiabancaria.cmfchile.cl/sbifweb/servlet/Noticia?indice=2.0"
+timeout_seconds = 60
+
+[bcch]
+base_url = "https://si3.bcentral.cl/SieteRestWS/SieteRestWS.ashx"
+timeout_seconds = 60
+max_retries = 3

@@ -1,0 +1,18 @@
+[explainability]
+models = ["elastic_net", "xgboost", "random_forest"]
+top_global_features = 10
+critical_absolute_change_months = 5
+critical_elastic_error_months = 5
+local_drivers_per_direction = 3
+additivity_tolerance = 0.000001
+coefficient_zero_tolerance = 0.0000000001
+
+context_features = [
+  "npl90_level_t",
+  "imacec_yoy_pct",
+  "ipc_yoy",
+  "unemployment_rate",
+  "tpm_change_3m_pp",
+  "usdclp_yoy_pct",
+  "real_consumer_loans_yoy_pct",
+]

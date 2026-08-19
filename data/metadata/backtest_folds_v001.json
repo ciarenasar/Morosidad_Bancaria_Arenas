@@ -1,0 +1,94 @@
+{
+  "folds": [
+    {
+      "fold_id": 1,
+      "observation_dates": [
+        "2020-03-01",
+        "2020-04-01",
+        "2020-05-01",
+        "2020-06-01",
+        "2020-07-01",
+        "2020-08-01",
+        "2020-09-01",
+        "2020-10-01",
+        "2020-11-01",
+        "2020-12-01",
+        "2021-01-01",
+        "2021-02-01"
+      ],
+      "test_end": "2021-02-01",
+      "test_start": "2020-03-01"
+    },
+    {
+      "fold_id": 2,
+      "observation_dates": [
+        "2021-03-01",
+        "2021-04-01",
+        "2021-05-01",
+        "2021-06-01",
+        "2021-07-01",
+        "2021-08-01",
+        "2021-09-01",
+        "2021-10-01",
+        "2021-11-01",
+        "2021-12-01",
+        "2022-01-01",
+        "2022-02-01"
+      ],
+      "test_end": "2022-02-01",
+      "test_start": "2021-03-01"
+    },
+    {
+      "fold_id": 3,
+      "observation_dates": [
+        "2022-03-01",
+        "2022-04-01",
+        "2022-05-01",
+        "2022-06-01",
+        "2022-07-01",
+        "2022-08-01",
+        "2022-09-01",
+        "2022-10-01",
+        "2022-11-01",
+        "2022-12-01",
+        "2023-01-01",
+        "2023-02-01"
+      ],
+      "test_end": "2023-02-01",
+      "test_start": "2022-03-01"
+    },
+    {
+      "fold_id": 4,
+      "observation_dates": [
+        "2023-03-01",
+        "2023-04-01",
+        "2023-05-01",
+        "2023-06-01",
+        "2023-07-01",
+        "2023-08-01",
+        "2023-09-01",
+        "2023-10-01",
+        "2023-11-01",
+        "2023-12-01"
+      ],
+      "test_end": "2023-12-01",
+      "test_start": "2023-03-01"
+    }
+  ],
+  "holdout_policy": "No se seleccionó ni evaluó ninguna fila del holdout.",
+  "purge_rule": "En cada origen, target_available_date_h6 debe ser anterior o igual a forecast_issue_date.",
+  "summary": {
+    "evaluated_splits": [
+      "development"
+    ],
+    "evaluation_origins": 46,
+    "first_evaluation_origin": "2020-03-01",
+    "folds": 4,
+    "last_evaluation_origin": "2023-12-01",
+    "maximum_effective_training_rows": 100,
+    "maximum_purged_rows": 5,
+    "minimum_effective_training_rows": 55,
+    "models": 5,
+    "prediction_rows": 230
+  }
+}
